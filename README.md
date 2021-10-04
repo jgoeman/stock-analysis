@@ -77,6 +77,9 @@ Some advantages to refactoring code:
 A few disadvantages to refactoring code are:
 - The time to refactor code could be immense
 - Mistakes could happen while refactoring code requiring more debugging
+
+Overall the ability to read, maintain, and quickly run programs shows the great advantage to refactoring code.
+
 ### How the Previous Pro's and Con's apply to refactoring the original VBA Script
 The main Con to refactoring the original VBA script is that it took me several hours to do, and I made several mistakes to debug while doing it. The increased time to refactor seems to be the main pain point. The Pro's seem to greatly outweigh the cons though more so with larger data sets. When looking at the run times alone comparing the orignal code to the refactored code for 2017 it took 15 seconds on the orignal and .234 seconds on the refactored version. The 2018 information show similiar results with 1.49 seconds on the original and .242 seconds to run on the refactored code. This can be obviously seen as relative, and if there were no intention to increase the size of the data set there would be no reason in this case to refactor the code. With a data set as small as this a difference in seconds does not mean much, but if we were to add several thousand data points then the difference in time is easy to see. The data also became easier to read as nested loops add in another item to follow in the code.
 
