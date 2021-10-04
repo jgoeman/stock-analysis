@@ -79,5 +79,7 @@ A few disadvantages to refactoring code are:
 - Mistakes could happen while refactoring code requiring more debugging
 ### How the Previous Pro's and Con's apply to refactoring the original VBA Script
 The main Con to refactoring the original VBA script took me several hours to do, and I made several mistakes to debug while doing it. The increased time to refactor seems to be the main pain point. The Pro's seem to greatly outweigh the cons though. When looking at the run times alone comparing the orignal code to the refactored code for 2017 it took 15 seconds on the orignal and .234 seconds on the refactored version. The 2018 information show similiar results with 1.49 seconds on the original and .242 seconds to run on the refactored code. This can be obviously seen as relative. With a data set as small as this a difference in seconds does not mean much, but if we were to add several thousand data points then the difference in time is easy to see.
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/36859475/135808539-737e5f85-85bd-4f19-8bdc-e7189c655176.png)
+
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/36859475/135808551-29889715-7740-45f8-ab38-1c0c6c9fd508.png)
