@@ -54,7 +54,7 @@ Refactoring the data provided large gains in speed. The difference in the code b
             
             End If
         
-            'If the next row�s ticker doesn�t match, increase the tickerIndex.
+            'If the next rows ticker doesnt match, increase the tickerIndex.
          
             If Cells(i + 1, 1).Value <> tickers(tickerindex) And Cells(i, 1).Value = tickers(tickerindex) Then
             
